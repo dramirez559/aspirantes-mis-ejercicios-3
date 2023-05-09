@@ -1,0 +1,56 @@
+h1{
+    width: 100%;
+    padding-left: 20%;
+    font-size: 300%;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 30px;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+    line-height: normal;
+    color: #566573;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    height: auto; 
+    background: #F8F9F9;  
+}
+strong{
+    color: #F1948A; 
+}
+#title{
+    font-size: 32px;
+}
+.parte1{
+    width: 60%;
+    padding-top: none;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: none;
+}
+.parte2{
+    width: 60%;
+    padding-top: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+}
+li{
+    padding: 3px;
+}
+img{
+    width: 8%;
+    height: 8%;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+.copyright{
+    padding: 1px;
+}
+.contacto{
+    color:#D35400  ;
+}
+
