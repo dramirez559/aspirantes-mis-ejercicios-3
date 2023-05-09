@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Ubuntu&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+        <title>Git branches</title>
+    </head>
+    <h1>S3 - Git Branches</h1>
+    <body>
+        <div class="parte1">
+            <h2 id="title">Ejercicio 1:</h2>
+            <ol>
+                <li value="1">Crea un repositorio de Git vacío con el comando 
+                   <strong>git init.</strong> </li> 
+                <li value="2">Crea un archivo llamado <strong>index.html</strong> y agrega algo de contenido.</li>
+                <li value="3">Agrega el archivo <strong>index.html</strong> al área de preparación con el comando <strong>git add index.html</strong>.</li>
+                <li value="4">Crear un commit en este punto.</li>
+                <li value="5">Crea una nueva rama llamada <strong>develop</strong> con el comando <strong> git branch develop</strong>.</li>
+                <li value="6">Cambia a la rama <strong>develop</strong> con el comando <strong>git checkout develop</strong>.</li>
+                <li value="7">Crea un archivo llamado <strong>.env</strong> y agrega algo de contenido sensible.</li>
+                <li value="8">Crea un archivo llamado <strong>.gitignore</strong> en la raíz del repositorio.</li>
+                <li value="9">Abre el archivo <strong>.gitignore</strong> y agrega una línea que indique que Git debe ignorar el archivo <strong>.env</strong>. La línea debería ser así: <strong>.env</strong>.</li>
+                <li value="10">Agrega el archivo <strong>.gitignore</strong> al área de preparación con el comando <strong>git add .gitignore.</strong></li>
+                <li value="11">Edita el archivo <strong>index.html</strong> para hacer algunos cambios y agrega esos cambios al área de preparación con el comando <strong>git add index.html</strong>.</li>
+                <li value="12"> Haz un commit con los cambios en la rama <strong>develop</strong> usando el comando <strong>git commit -m "Cambios en la rama develop"</strong>.</li>
+                <li value="13">Cambia de vuelta a la rama main con el comando <strong>git checkout main</strong>.</li>
+                <li value="14">Muestra el contenido del archivo <strong>index.html</strong> para comprobar que los cambios hechos en la rama <strong>develop</strong> no están presentes.</li>
+                <li value="15"> Fusiona la rama <strong>develop</strong> en la rama <strong>main</strong> usando el comando <strong>git merge develop</strong>. Los cambios realizados en la rama <strong>develop</strong> se integrarán en la rama <strong>main</strong>.</li>
+                <li value="16">Muestra el contenido del archivo <strong>index.html</strong> de nuevo para comprobar que los cambios realizados en la rama <strong>develop</strong> ahora están presentes en la rama <strong>main</strong>.</li>
+                <li value="17"> Verifica que el archivo <strong>.env</strong> no está incluido en el repositorio ejecutando el comando <strong>git ls-files --other --ignored --exclude-standard</strong>.</li>
+                <li value="18">Publicar a Github en un repositorio llamado aspirantes-mir-ejercicioi-3.</li>
+                <li value="19">Enviar el link al repositorio en Github a su mentor(a).</li>         
+            </ol>   
+    </div> 
+    <div class="parte2">
+        <h2 id="title">Bonus</h2>
+        <p>Este ejercicio te permite practicar cómo clonar un repositorio existente, cómo crear una nueva rama a partir de la rama principal y cómo fusionar los cambios realizados en la nueva rama de vuelta a la rama principal.</p>
+
+        <ol>
+            <li value="1">Clona un repositorio existente con el comando <strong>git clone <url del repositorio></strong>.</li>
+            <li value="2">Cambia al directorio del repositorio clonado con el comando <strong>cd <nombre del repositorio></strong>.</li>
+            <li value="3">Crea una nueva rama llamada <strong>nueva-funcionalidad</strong> a partir de la rama principal con el comando <strong>git checkout -b nueva-funcionalidad</strong>. Este comando crea una nueva rama y automáticamente cambia a ella.</li>
+            <li value="4">Crea un nuevo archivo llamado <strong>nuevo-archivo.txt</strong> en el directorio raíz del repositorio y agrega algo de contenido.</li>
+            <li value="5">Agrega el archivo <strong>nuevo-archivo.txt</strong> al área de preparación con el comando <strong>git add nuevo-archivo.txt</strong>.</li>
+            <li value="6">Haz un commit con los cambios en la rama <strong>nueva-funcionalidad</strong> usando el comando <strong>git commit -m "Agregado nuevo archivo para la nueva funcionalidad"</strong>.</li>
+            <li value="7">Cambia de vuelta a la rama principal con el comando <strong>git checkout main</strong></li>
+            <li value="8">Muestra el contenido del archivo <strong>nuevo-archivo.txt</strong> para comprobar que los cambios realizados en la rama </strong>nueva-funcionalidad</strong> no están presentes.</li>
+            <li value="9">Fusiona la rama <strong>nueva-funcionalidad</strong> en la rama </strong>main</strong> usando el comando <strong>git merge nueva-funcionalidad</strong>. Los cambios realizados en la rama <strong>nueva-funcionalidad</strong> se integrarán en la rama <strong>main</strong>.</li>
+            <li value="10">Muestra el contenido del archivo <strong>nuevo-archivo.txt</strong> de nuevo para comprobar que los cambios realizados en la rama <strong>nueva-funcionalidad</strong> ahora están presentes en la rama main.</li>
+        </ol>      
+
+
+    </div >   
+    <footer>
+        <img src="kisspng-computer-icons-computer-programming-user-interface-browser-icon-5b336e98cc44f8.2093230815300973048367.png">
+        <p class="copyright">&copy Copyright - 2023 </p>
+        <p class="copyright">drgalvis955@gmail.com</p>
+    </footer> 
+        
+    </body>
+</html>
